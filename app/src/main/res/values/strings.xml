@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">FeedbackForm</string>
+    <string name="company_name">Capgemini India Pvt Ltd.</string>
+    <string name="first_name">First Name</string>
+    <string name="enter_first_name">Enter your First Name</string>
+    <color name="lightskyblue">#87CEFA</color>
+    <string name="last_name">Last Name</string>
+    <string name="enter_last_name">Enter your Last Name</string>
+    <string name="fill">Fill Feedback</string>
+    <color name="aliceblue">#F0F8FF</color>
+    <color name="aqua">#00FFFF</color>
+    <color name="darkslategray">#2F4F4F</color>
+    <color name="white">#FFFFFF</color>
+    <string name="radio">Content</string>
+    <string-array name="over">
+        <item>Good</item>
+        <item>Average</item>
+        <item>Bad</item>
+    </string-array>
+    <string name="button_submit">Submit</string>
+</resources>

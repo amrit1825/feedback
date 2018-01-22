@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/lightskyblue"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.amrthaku.feedbackform.MainActivity">
+
+<Button
+    android:id="@+id/button"
+    android:layout_width="wrap_content"
+    android:layout_height="61dp"
+    android:text="Enter your details and fill feedback form"
+    android:background="@color/aliceblue"
+    android:layout_marginStart="26dp"
+    android:layout_marginEnd="26dp"
+    tools:layout_constraintTop_creator="1"
+    tools:layout_constraintRight_creator="1"
+    tools:layout_constraintBottom_creator="1"
+    app:layout_constraintBottom_toBottomOf="@+id/button3"
+    app:layout_constraintRight_toRightOf="parent"
+    android:layout_marginTop="116dp"
+    tools:layout_constraintLeft_creator="1"
+    android:layout_marginBottom="110dp"
+    app:layout_constraintTop_toTopOf="parent"
+    android:layout_marginRight="26dp"
+    app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="63dp"
+        android:text="Display all Employee"
+        android:background="@color/aliceblue"
+        android:layout_marginStart="22dp"
+        android:layout_marginEnd="22dp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:id="@+id/button3"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="22dp"
+        app:layout_constraintHorizontal_bias="0.444" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="DISPLAY ALL FEEDBACK"
+        android:background="@color/aliceblue"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="87dp"
+        app:layout_constraintTop_toBottomOf="@+id/button3"
+        android:layout_marginBottom="89dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
